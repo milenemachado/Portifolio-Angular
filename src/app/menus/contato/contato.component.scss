@@ -1,0 +1,21 @@
+.conteiner-contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  padding: 20px;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.example-button-row {
+  margin-top: 4px; /* Menor espaço entre o botão e os campos */
+}

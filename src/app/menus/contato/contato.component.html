@@ -1,0 +1,31 @@
+<div class="conteiner-contato">
+  <h4>RESULTADOS E PARCERIAS</h4>
+
+  <div class="example-container">
+  <mat-form-field class="campo">
+      <mat-label>Nome</mat-label>
+      <input matInput placeholder="Nome">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>E-mail</mat-label>
+      <input
+        matInput
+        placeholder="pat@example.com"
+        [formControl]="emailControl"
+        (blur)="updateErrorMessage()"
+        required
+      />
+    </mat-form-field>
+
+    <mat-form-field class="campo">
+      <mat-label>Mensagem</mat-label>
+      <textarea matInput placeholder="Mensagem"></textarea>
+    </mat-form-field>
+
+    <div  class = "example-button-row" > 
+      <button  mat-raised-button style="color: black; text-decoration: none;"> Enviar </button > 
+    </div>
+
+  </div>
+</div>

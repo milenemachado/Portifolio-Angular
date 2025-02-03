@@ -1,0 +1,44 @@
+mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-container {
+    display: none;
+  }
+  
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9); 
+    position: absolute;
+    width: 200px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .menu-links a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+  
+  .menu-links.active {
+    visibility: visible;
+  }
+  
+  .example-icon {
+    cursor: pointer;
+  }
+  
+  .butao {
+    margin-left: auto;
+  }
+  
+  .butao a {
+    margin-right: 15px;
+  }
+  
