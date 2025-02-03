@@ -1,0 +1,28 @@
+.sobre{
+  margin-top: 10%;
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+  justify-content: center;
+  text-align: center; 
+  gap: 20px;
+
+  border-radius: 16px;
+}
+.sobre:hover{
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease; 
+
+}
+.resized-img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; 
+  }
+
+  .paragrafo {
+    text-align: left; 
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
